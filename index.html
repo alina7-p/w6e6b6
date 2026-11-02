@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Alina's Digital Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Limelight&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Alina<span>.</span></div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+            <h1 id="greeting">Hello, I'm Alina!</h1>
+            <h2 class="headline">I think therefore I am</h2>
+            <p class="intro">
+                @ Astana IT University | Passionate about tech, coding, creativity, & continuous learning.
+            </p>
+            <div class="theme-buttons">
+                <button id="lightTheme">Light Theme</button>
+                <button id="darkTheme">Dark Theme</button>
+            </div>
+        </section>
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p class="bio">
+                I am a university student exploring the world
+                of information technology and web development.
+            </p>
+            <div id="aboutDetails">
+                <p id="status">Currently learning jQuery!</p>
+                <h3>Fun Facts About Me</h3>
+                <ul>
+                    <li>I enjoy watching movies and anime.</li>
+                    <li>Since i was child i wanted to be an actor.</li>
+                    <li>I am interested in web development.</li>
+                </ul>
+            </div>
+            <div class="button-group">
+                <button id="hideBtn">Hide</button>
+                <button id="showBtn">Show</button>
+                <button id="toggleBtn">Toggle</button>
+            </div>
+        </section>
+
+        <section id="gallery" class="section">
+            <h2>My Gallery</h2>
+            <div class="gallery">
+                <a href="https://ibb.co.com/rK5BGKym"><img src="https://i.ibb.co.com/6cDKRcsm/82259a7193bc58d04df0ea92737e2f5d.jpg" alt="82259a7193bc58d04df0ea92737e2f5d" border="0"></a>
+
+                <a href="https://ibb.co.com/21RdrNDc"><img src="https://i.ibb.co.com/DHmQFpxw/5b5f82b8687b65dc3c6c5984a4f020dc.jpg" alt="5b5f82b8687b65dc3c6c5984a4f020dc" border="0"></a>
+            </div>
+            <div class="button-group">
+                <button id="fadeInBtn">Fade In</button>
+                <button id="fadeOutBtn">Fade Out</button>
+                <button id="fadeToggleBtn">Fade Toggle</button>
+            </div>
+        </section>
+
+        <section id="favorites" class="section">
+            <h2>My Favorites</h2>
+            <div class="accordion">
+                <h3 class="accordion-title">Favorite Music</h3>
+                <div class="accordion-content">
+                    <p>Rockstar Made - Playboi Carti</p>
+                </div>
+                <h3 class="accordion-title">Comfort movie</h3>
+                <div class="accordion-content">
+                    <p>Inception - directed by Christopher Nolan</p>
+                </div>
+                <h3 class="accordion-title">Favorite game</h3>
+                <div class="accordion-content">
+                    <p>Minrcraft, GTA V, Brawl Stars</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>My Technical Skills</h2>
+            <ul id="skillsList">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+            </ul>
+            <input type="text" id="skillInput"
+                   placeholder="Enter a new skill">
+            <div class="button-group">
+                <button id="addSkillBtn">Add Skill</button>
+                <button id="prependSkillBtn">Prepend Skill</button>
+                <button id="removeSkillBtn">Remove Skill</button>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Find Me Online</h2>
+            <a id="socialLink"
+               href="https://github.com/alina7-p"
+               target="_blank">
+                Visit My GitHub
+            </a>
+            <button id="changeLinkBtn">Change Link</button>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <label for="nameInput">Name</label>
+                <input type="text" id="nameInput"
+                       placeholder="Your name">
+
+                <label for="emailInput">Email</label>
+                <input type="email" id="emailInput"
+                       placeholder="Your email">
+            </form>
+            <div class="live-preview">
+                <h3>Live Preview</h3>
+                <p id="namePreview">Name: </p>
+                <p id="emailPreview">Email: </p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>My Skill Levels</h2>
+            <div class="skill-item">
+                <p>HTML</p>
+                <div class="skill-track">
+                    <div class="skill-bar" data-width="90"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <p>CSS</p>
+                <div class="skill-track">
+                    <div class="skill-bar" data-width="65"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <p>JavaScript</p>
+                <div class="skill-track">
+                    <div class="skill-bar" data-width="50"></div>
+                </div>
+            </div>
+            <button id="animateSkillsBtn">Animate My Skills</button>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 Alina's Digital Portfolio.</p>
+    </footer>
+</body>
+</html>
