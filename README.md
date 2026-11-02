@@ -26,7 +26,8 @@ The `$(document).ready()` function was used to ensure that the code executes aft
 
 The message "jQuery is ready!" is displayed in the browser console.
 
-<img width="718" height="162" alt="Screenshot 2026-11-01 at 01 48 09" src="https://github.com/user-attachments/assets/a54dbc71-a0cc-4bde-b2cd-37faa731f6d9" />
+<img width="431" height="64" alt="Screenshot 2026-11-02 at 20 47 38" src="https://github.com/user-attachments/assets/0ac7f1c7-0d6e-429f-8952-67c48a319cc1" />
+
 
 ## Task 1. Selectors & CSS
 
@@ -42,9 +43,11 @@ The `.text()` method was used to update the greeting, while `.css()` was used to
 
 Light and Dark Theme buttons were implemented using jQuery class manipulation.
 
-<img width="1403" height="531" alt="Screenshot 2026-11-02 at 20 38 54" src="https://github.com/user-attachments/assets/74100844-cb46-4cfd-b9b4-d71632543b81" />
+<img width="1337" height="657" alt="Screenshot 2026-11-02 at 20 47 59" src="https://github.com/user-attachments/assets/d20990f1-c89b-4323-b387-5a41a2a07d0b" />
 
-<img width="1396" height="573" alt="Screenshot 2026-11-02 at 20 42 11" src="https://github.com/user-attachments/assets/e55c29df-8229-4b5a-8bbb-a02ae74601e8" />
+
+<img width="1354" height="619" alt="Screenshot 2026-11-02 at 20 48 19" src="https://github.com/user-attachments/assets/c984fe91-76d2-4c63-a939-b89536a91c07" />
+
 
 ---
 
